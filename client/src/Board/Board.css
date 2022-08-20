@@ -1,0 +1,90 @@
+.board-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.Board {
+    background-color: black;
+    width: fit-content;
+    margin: 100px;
+    padding: 10px;
+
+}
+
+.empty {
+    height: 80px;
+    width: 80px;
+    background-color:white;
+    border-radius: 50%;
+}
+
+.blue {
+    height: 80px;
+    width: 80px;
+    background-color:blue;
+    border-radius: 50%;
+}
+
+.red {
+    height: 80px;
+    width: 80px;
+    background-color:red;
+    border-radius: 50%;
+}
+
+.room {
+    font-size: xx-large;
+    background-color:coral;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.position {
+    font-size: xx-large;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: cornsilk;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.leave-room:hover {
+    transform: scale(1.1);
+}
+.leave-room {
+    font-size: xx-large;
+    background-color: rgb(208, 1, 1);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;  
+}
+
+.Page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(63, 171, 210, 0.58);
+}
