@@ -6,7 +6,7 @@ import './App.css';
 import PositionPage from './PositionPage/PositionPage';
 import WaitingPage from './WaitingPage/WaitingPage';
 
-const socket = io.connect("https://nodejs-connect-4.herokuapp.com/");
+const socket = io.connect("https://render-connect-4.onrender.com");
 // const socket = io.connect("http://localhost:3001");
 
 const uniqID = Math.floor(Math.random() * 1000) + 1;
